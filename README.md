@@ -1,6 +1,6 @@
 # Password-generator
 
-Chrome has "suggess password" when you need to create a password on a password field.
+Chrome has "suggest password" when you need to create a password on a password field.
 Strong secured passwords which then automatically becomes unsecured once again because chrome stores that password on your google account and in your browser.
 
 ## Description
@@ -17,10 +17,13 @@ Strong secured passwords which then automatically becomes unsecured once again b
 ### Usage
 
 - Example 1
--- ASSUMING your master password is "Password12345"
--- you are on your gmail account page and want to create an account or change password, you can either copy the url (https://accounts.google.com) and fill as your website url and your master password as "password12345"
-which will generate a static password for that email account |||or if you have multiple email accounts, e.g myname@gmail.com, and my2ndname@gmail.com... you can use each email account as a website url and your master password "password12345" to generate a password for each account.
-- - - - - -
+- ASSUMING your master password is "Password12345"
+- you are on your gmail account page and want to create an account or change password.
+- you can either copy the url (https://accounts.google.com) and fill as your website url and your master password as "password12345"
+- This will generate a static password for that email account
+- Or if you have multiple email accounts, e.g myname@gmail.com, and my2ndname@gmail.com... 
+- you can use each email account as a website url and your master password "password12345" to generate a password for each account.
+- - - -
 - Simply download code and upload to a php backend.
 - send a post request to the php page (password-generator.php). the post fields should be "default_key" for the master password and "website_name" for the url.
 - This page can be viewed on [my portfolio website](https://lordlawrence.netlify.app).
