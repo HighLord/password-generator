@@ -26,7 +26,7 @@ Strong secured passwords which then automatically becomes unsecured once again b
 - - - -
 - Simply download code and upload to a php backend.
 - send a post request to the php page (password-generator.php). the post fields should be "default_key" for the master password and "website_name" for the url.
-- This page can be viewed on [my portfolio website](https://lordlawrence.netlify.app).
+- This page can be viewed on [my portfolio website](https://lordlawrence.netlify.app/project/password-generator.html).
 
 ### Support
 
